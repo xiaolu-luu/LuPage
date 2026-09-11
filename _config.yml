@@ -1,15 +1,15 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Tianlu Zheng"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Tianlu Zheng"
 description              : &description "A clean academic homepage template."
-url                      : ""
-baseurl                  : ""
-repository               : ""
+url                      : "https://xiaolu-luu.github.io"
+baseurl                  : "/LuPage"
+repository               : "xiaolu-luu/LuPage"
 
 author:
   avatar           : "1.png"
-  name             : "Your Name"
+  name             : "Tianlu Zheng"
   pronouns         :
   bio              : "Student and researcher."
   location         : "City, Country"
