@@ -2,20 +2,20 @@ locale                   : "en-US"
 title                    : "Tianlu Zheng"
 title_separator          : "-"
 name                     : "Tianlu Zheng"
-description              : &description "A clean academic homepage template."
+description              : &description "Tianlu Zheng's academic homepage - multimodal representation learning and large language models."
 url                      : "https://xiaolu-luu.github.io"
 baseurl                  : "/LuPage"
 repository               : "xiaolu-luu/LuPage"
 
 author:
-  avatar           : "1.png"
+  avatar           : "tianlu-zheng.jpg"
   name             : "Tianlu Zheng"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  bio              : "M.S. student in Robotics Science and Engineering."
+  location         : "China"
+  employer         : "Northeastern University, China"
   uri              :
-  email            : "name@example.com"
+  email            : "zhengtianlu0216@163.com"
 
   arxiv            :
   googlescholar    :
@@ -28,7 +28,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "xiaolu-luu"
   kaggle           :
   stackoverflow    :
 
@@ -92,9 +92,10 @@ facebook:
   publisher              :
 og_image                 :
 social:
-  type                   :
-  name                   :
-  links                  : []
+  type                   : "Person"
+  name                   : "Tianlu Zheng"
+  links                  :
+    - "https://github.com/xiaolu-luu"
 
 analytics:
   provider               : false
