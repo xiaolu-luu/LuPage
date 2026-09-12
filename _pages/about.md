@@ -56,11 +56,6 @@ Experience
       <div><strong>Tencent</strong><span class="item-subtitle">Multimodal Algorithm Intern</span></div>
       <time>Aug 2025 - Present</time>
     </div>
-    <ul>
-      <li>Built a video classification pipeline for Game for Peace mobile gameplay and PC emulator footage using Kafka, OCR, YOLO, and Qwen2.5-VL model distillation.</li>
-      <li>Distilled Qwen2.5-VL-32B into Qwen2.5-VL-3B, reaching 95% classification accuracy and 85% recall after a coarse-filtering stage with 98% accuracy.</li>
-      <li>Developed multimodal RAG, Swin Transformer, and GRPO-tuned Qwen2.5-VL-7B solutions for cheat-video detection, achieving 90% accuracy while processing about 50,000 videos per day.</li>
-    </ul>
   </article>
 
   <article class="experience-card">
@@ -68,11 +63,6 @@ Experience
       <div><strong>Baidu ERNIE</strong><span class="item-subtitle">Large Language Model Algorithm Intern</span></div>
       <time>Jun 2025 - Jul 2025</time>
     </div>
-    <ul>
-      <li>Designed a unified atomic-instruction decomposition standard and prompt pipeline, then fine-tuned ERNIE 4.5-21B for automated decomposition and response-quality evaluation.</li>
-      <li>Reached 97% decomposition accuracy and 99% recall; identified instruction-following defects in 12% of sampled SFT data and 20% of positive DPO samples.</li>
-      <li>Improved ERNIE 4.5-21B multi-instruction following performance by 5% after repairing DPO training data.</li>
-    </ul>
   </article>
 
   <article class="experience-card">
@@ -80,11 +70,6 @@ Experience
       <div><strong>DeepGlint</strong><span class="item-subtitle">Multimodal Algorithm Intern</span></div>
       <time>Nov 2024 - Jun 2025</time>
     </div>
-    <ul>
-      <li>Developed a text-based person retrieval system using continued CN-CLIP pretraining, structured representation benchmarks, NegCLIP hard negatives, clothing-logo recognition, and a quantized Qwen2.5-8B information extractor.</li>
-      <li>Delivered a person retrieval model deployed in public-security and traffic-management systems across multiple cities.</li>
-      <li>Enhanced an E5-V/LLaVA multimodal retrieval model with false-negative filtering and hard-negative instruction tuning, improving short-text, long-text, and composed image retrieval by 4.5%, 5.1%, and 2.1% over baseline.</li>
-    </ul>
   </article>
 
   <article class="experience-card">
@@ -92,10 +77,6 @@ Experience
       <div><strong>China Telecom Beijing Research Institute</strong><span class="item-subtitle">GPU Programming and AI Operator Optimization Intern</span></div>
       <time>Jun 2024 - Sep 2024</time>
     </div>
-    <ul>
-      <li>Implemented and benchmarked Triton, CUDA, and native PyTorch operators across FP16, FP32, and FP64, measuring latency and TFLOPS for matrix multiplication, normalization, activation, softmax, and loss operators.</li>
-      <li>Contributed to <em>A Comprehensive Survey of Triton: Artificial Intelligence Compiler and Operator Optimization</em>.</li>
-    </ul>
   </article>
 </div>
 
@@ -143,21 +124,3 @@ Research
     <li>Improved performance by about 35% over Qwen2.5-VL-7B, 6% over GPT-4o, and 3% over the referenced state-of-the-art method on the humor dataset.</li>
   </ul>
 </article>
-
-Skills
-------
-<div class="skills-grid">
-  <div><strong>Programming</strong><span>Python, Linux, shell scripting, Git, Docker</span></div>
-  <div><strong>Acceleration</strong><span>CUDA, Triton operator development, TensorRT</span></div>
-  <div><strong>Model Training</strong><span>DDP, multi-GPU training, LoRA, QLoRA, DPO, GRPO, post-training</span></div>
-  <div><strong>Multimodal AI</strong><span>CLIP, SigLIP, BLIP, LLaVA, Qwen-VL, multimodal RAG</span></div>
-</div>
-
-Awards
-------
-<ul class="award-list">
-  <li><strong>First-Class Graduate Scholarship</strong></li>
-  <li><strong>National Encouragement Scholarship</strong> - awarded three times</li>
-  <li><strong>Second Prize, Provincial Level</strong> - iFLYTEK Cup National Intelligent Vehicle Competition, Home Service Robot Challenge</li>
-  <li><strong>Second Prize, North China Region</strong> - Siemens Cup China Intelligent Manufacturing Challenge, Information and Networking Track</li>
-</ul>
