@@ -4,9 +4,9 @@
 
 #news,
 #education,
-#experience,
-#publications,
-#research {
+#industry-experience,
+#internships,
+#publications {
   scroll-margin-top: 80px;
 }
 
@@ -124,8 +124,7 @@
 
 .timeline-item,
 .experience-card,
-.publication-card,
-.research-project {
+.publication-card {
   box-sizing: border-box;
   padding: 1rem 1.2rem;
   border: 1px solid #d1d9e0;
@@ -142,8 +141,7 @@
 }
 
 .timeline-item,
-.experience-card,
-.research-project {
+.experience-card {
   border-left: 3px solid #818b98;
 }
 
@@ -181,8 +179,7 @@
 }
 
 .timeline-item p,
-.experience-card p,
-.research-project p {
+.experience-card p {
   margin: 0.7rem 0 0;
   color: #3d444d;
   line-height: 1.65;
@@ -295,29 +292,6 @@
 }
 
 /* --------------------------------------------------------------------------
-   Research
-   -------------------------------------------------------------------------- */
-
-.research-project ul {
-  margin: 0.75rem 0 0;
-  padding-left: 1.2rem;
-  color: #3d444d;
-}
-
-.research-project li {
-  margin-bottom: 0.45rem;
-  line-height: 1.65;
-}
-
-.research-project li:last-child {
-  margin-bottom: 0;
-}
-
-.research-project li::marker {
-  color: #818b98;
-}
-
-/* --------------------------------------------------------------------------
    Sidebar
    -------------------------------------------------------------------------- */
 
@@ -410,7 +384,6 @@
   .timeline-item,
   .experience-card,
   .publication-card,
-  .research-project,
   .news-box {
     width: 100%;
     min-width: 0;

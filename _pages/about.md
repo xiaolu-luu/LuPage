@@ -25,7 +25,6 @@ News
     <li><span class="news-date">2026.06</span> Graduated with an M.S. from Northeastern University and joined NIO's Autonomous Driving division as a Multimodal Algorithm Engineer.</li>
     <li><span class="news-date">2025.09</span> Our work on robust text-based person retrieval was released on arXiv and accepted to the EMNLP Main Conference.</li>
     <li><span class="news-date">2025.08</span> Joined Tencent as a Multimodal Algorithm Intern.</li>
-    <li><span class="news-date">2025.07</span> Started a research project on multimodal humor understanding through lateral thinking.</li>
     <li><span class="news-date">2025.06</span> Joined Baidu ERNIE as a Large Language Model Algorithm Intern.</li>
   </ul>
 </div>
@@ -49,8 +48,9 @@ Education
   </article>
 </div>
 
-Experience
-----------
+Industry Experience
+-------------------
+{: #industry-experience}
 <div class="experience-container">
   <article class="experience-card">
     <div class="item-header">
@@ -61,7 +61,12 @@ Experience
       <time>Jun 2026 - Present</time>
     </div>
   </article>
+</div>
 
+Internships
+-----------
+{: #internships}
+<div class="experience-container">
   <article class="experience-card">
     <div class="item-header">
       <div class="experience-title">
@@ -131,25 +136,4 @@ Publications
     <p>A multimodal solution for text-based person anomaly search presented at the WWW '25 workshop.</p>
     <a href="https://dl.acm.org/doi/abs/10.1145/3701716.3717651" target="_blank" rel="noopener">DOI</a>
   </article>
-
-  <article class="publication-card">
-    <div class="publication-meta"><span class="venue-badge venue-badge--neutral">Patent</span><span>Application 2025110619980</span></div>
-    <h3>Indoor Semantic Mapping and Navigation Method and System Based on Multimodal Models</h3>
-  </article>
 </div>
-
-Research
---------
-<article class="research-project">
-  <div class="item-header">
-    <div><strong>Multimodal Humor Image Understanding via Lateral Thinking</strong><span class="item-subtitle">Research Project</span></div>
-    <time>Jul 2025 - Present</time>
-  </div>
-  <p>Improving Qwen2.5-VL's ability to understand humor that requires divergent, multi-step reasoning.</p>
-  <ul>
-    <li>Trained a humor judge on selection, ranking, and rewriting tasks.</li>
-    <li>Built a multi-agent generation framework with expander, generator, and supervisor roles.</li>
-    <li>Combined LoRA supervised fine-tuning with a second DPO stage and judge-guided preference-data updates.</li>
-    <li>Improved performance by about 35% over Qwen2.5-VL-7B, 6% over GPT-4o, and 3% over the referenced state-of-the-art method on the humor dataset.</li>
-  </ul>
-</article>
