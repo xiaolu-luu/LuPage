@@ -8,12 +8,12 @@ baseurl                  : "/LuPage"
 repository               : "xiaolu-luu/LuPage"
 
 author:
-  avatar           : "tianlu-zheng.jpg"
+  avatar           : "tianlu.zheng.jpg"
   name             : "Tianlu Zheng"
   pronouns         :
-  bio              : "M.S. student in Robotics Science and Engineering."
+  bio              : "Multimodal Algorithm Engineer at NIO Autonomous Driving."
   location         : "China"
-  employer         : "Northeastern University, China"
+  employer         : "NIO, Autonomous Driving"
   uri              :
   email            : "zhengtianlu0216@163.com"
 

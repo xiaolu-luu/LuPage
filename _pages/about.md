@@ -9,9 +9,9 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi, I'm Tianlu Zheng.</h1>
 
-I am an M.S. student in Robotics Science and Engineering at Northeastern University, China. My research focuses on multimodal representation learning, multimodal large language models, and efficient model training and inference.
+I am a Multimodal Algorithm Engineer at NIO's Autonomous Driving division. I received my M.S. in Robotics Science and Engineering from Northeastern University, China, in June 2026. My work focuses on multimodal representation learning, multimodal large language models, and efficient model training and inference.
 
-I have worked on multimodal algorithms and large-model post-training at Tencent, Baidu, DeepGlint, and China Telecom Beijing Research Institute.
+Previously, I worked on multimodal algorithms and large-model post-training at Tencent, Baidu, DeepGlint, and China Telecom Beijing Research Institute.
 
 <p class="intro-links">
   <a href="mailto:zhengtianlu0216@163.com">Email</a>
@@ -22,6 +22,7 @@ News
 ----
 <div class="news-box">
   <ul class="news-list">
+    <li><span class="news-date">2026.06</span> Graduated with an M.S. from Northeastern University and joined NIO's Autonomous Driving division as a Multimodal Algorithm Engineer.</li>
     <li><span class="news-date">2025.09</span> Our work on robust text-based person retrieval was released on arXiv and accepted to the EMNLP Main Conference.</li>
     <li><span class="news-date">2025.08</span> Joined Tencent as a Multimodal Algorithm Intern.</li>
     <li><span class="news-date">2025.07</span> Started a research project on multimodal humor understanding through lateral thinking.</li>
@@ -53,28 +54,50 @@ Experience
 <div class="experience-container">
   <article class="experience-card">
     <div class="item-header">
-      <div><strong>Tencent</strong><span class="item-subtitle">Multimodal Algorithm Intern</span></div>
-      <time>Aug 2025 - Present</time>
+      <div class="experience-title">
+        <img class="company-logo" src="{{ site.baseurl }}/images/nio.png" alt="NIO logo" loading="lazy">
+        <div><strong>NIO</strong><span class="item-subtitle">Multimodal Algorithm Engineer, Autonomous Driving</span></div>
+      </div>
+      <time>Jun 2026 - Present</time>
     </div>
   </article>
 
   <article class="experience-card">
     <div class="item-header">
-      <div><strong>Baidu ERNIE</strong><span class="item-subtitle">Large Language Model Algorithm Intern</span></div>
+      <div class="experience-title">
+        <img class="company-logo" src="{{ site.baseurl }}/images/tencent.png" alt="Tencent logo" loading="lazy">
+        <div><strong>Tencent</strong><span class="item-subtitle">Multimodal Algorithm Intern</span></div>
+      </div>
+      <time>Aug 2025 - Nov 2025</time>
+    </div>
+  </article>
+
+  <article class="experience-card">
+    <div class="item-header">
+      <div class="experience-title">
+        <img class="company-logo" src="{{ site.baseurl }}/images/baidu-logo.jpg" alt="Baidu logo" loading="lazy">
+        <div><strong>Baidu ERNIE</strong><span class="item-subtitle">Large Language Model Algorithm Intern</span></div>
+      </div>
       <time>Jun 2025 - Jul 2025</time>
     </div>
   </article>
 
   <article class="experience-card">
     <div class="item-header">
-      <div><strong>DeepGlint</strong><span class="item-subtitle">Multimodal Algorithm Intern</span></div>
+      <div class="experience-title">
+        <img class="company-logo" src="{{ site.baseurl }}/images/deepglint.jpg" alt="DeepGlint logo" loading="lazy">
+        <div><strong>DeepGlint</strong><span class="item-subtitle">Multimodal Algorithm Intern</span></div>
+      </div>
       <time>Nov 2024 - Jun 2025</time>
     </div>
   </article>
 
   <article class="experience-card">
     <div class="item-header">
-      <div><strong>China Telecom Beijing Research Institute</strong><span class="item-subtitle">GPU Programming and AI Operator Optimization Intern</span></div>
+      <div class="experience-title">
+        <img class="company-logo" src="{{ site.baseurl }}/images/chinatelecom.png" alt="China Telecom logo" loading="lazy">
+        <div><strong>China Telecom Beijing Research Institute</strong><span class="item-subtitle">GPU Programming and AI Operator Optimization Intern</span></div>
+      </div>
       <time>Jun 2024 - Sep 2024</time>
     </div>
   </article>
@@ -86,6 +109,9 @@ Publications
   <article class="publication-card">
     <div class="publication-meta"><span class="venue-badge">EMNLP Main</span><span>First author</span></div>
     <h3>Gradient-Attention Guided Dual-Masking Synergetic Framework for Robust Text-based Person Retrieval</h3>
+    <a class="publication-teaser" href="https://arxiv.org/abs/2509.09118" target="_blank" rel="noopener">
+      <img src="{{ site.baseurl }}/images/GA-DMS.png" alt="GA-DMS framework overview" loading="lazy">
+    </a>
     <p>A dual-masking and gradient-attention framework for improving robustness in text-based person retrieval.</p>
     <a href="https://arxiv.org/abs/2509.09118" target="_blank" rel="noopener">arXiv</a>
   </article>
@@ -93,6 +119,9 @@ Publications
   <article class="publication-card">
     <div class="publication-meta"><span class="venue-badge venue-badge--green">IROS Oral</span><span>First author</span></div>
     <h3>Dual-Level Open-Vocabulary 3D Scene Representation for Instance-Aware Robot Navigation</h3>
+    <figure class="publication-teaser">
+      <img src="{{ site.baseurl }}/images/DLOV-3D.png" alt="DLOV-3D scene representation overview" loading="lazy">
+    </figure>
     <p>Open-vocabulary 3D scene representations designed for instance-aware robotic navigation.</p>
   </article>
 
